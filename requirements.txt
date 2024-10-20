@@ -1,5 +1,5 @@
 tensorflow
-pillow==9.2.0
+pillow
 numpy
 pandas
 streamlit-option-menu
