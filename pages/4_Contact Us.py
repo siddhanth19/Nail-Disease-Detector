@@ -3,7 +3,7 @@ import streamlit as st
 st.header(":mailbox: GET IN TOUCH WITH US!")
 
 contact_form = """
-<form action="https://formsubmit.co/itsdivyanshshrivastava@gmail.com" method="POST">
+<form action="https://formsubmit.co/siddhanth.gargsg@gmail.com" method="POST">
      <input type="hidden" name="_captcha" value="false">
      <input type="text" name="name" placeholder="Name" required>
      <input type="email" name="email" placeholder="Email"  required>
@@ -15,6 +15,6 @@ contact_form = """
 st.markdown(contact_form, unsafe_allow_html=True)
 
 # Load and apply custom CSS
-css_file_path = r"style\style.css"
+css_file_path = r"style.css"
 with open(css_file_path) as f:
     st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
